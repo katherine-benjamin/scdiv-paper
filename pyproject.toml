@@ -1,0 +1,22 @@
+[project]
+name = "scdiv-paper-figures"
+version = "0.1.0"
+description = "Notebooks and data to reproduce the scdiv paper figures"
+requires-python = ">=3.11"
+dependencies = [
+    "scdiv @ git+https://github.com/katherine-benjamin/scdiv.git",
+    "marimo>=0.13",
+    "anndata>=0.10",
+    "scanpy>=1.11",
+    "numpy>=2.2",
+    "pandas>=2.2",
+    "scipy>=1.15",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "pyarrow>=16",
+    "pynndescent>=0.5",
+    "scikit-misc>=0.5",
+]
+
+[tool.uv]
+exclude-newer = "1 week"
