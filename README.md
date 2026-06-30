@@ -1,7 +1,9 @@
 This directory contains the notebooks and data used to generate the figures in
-the paper "Diversity in transcriptomics without cell types", which introduces
-the [`scdiv`](https://github.com/katherine-benjamin/scdiv) package. Each figure
-has one [marimo](https://marimo.io) notebook under `notebooks/` that reads its
+the paper "Diversity in transcriptomics without cell types".
+
+LC diversity is computed with the `scdiv` package available at https://github.com/katherine-benjamin/scdiv. 
+
+Each figure in the paper is associated to one [marimo](https://marimo.io) notebook under `notebooks/` that reads its
 inputs from `data/` and writes to `figures/`.
 
 | Notebook | Paper figure | Output | Inputs |
