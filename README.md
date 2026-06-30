@@ -42,7 +42,10 @@ sets, but they are not needed to reproduce the figures.
   `scripts/make_fig2_data.py` processes the atlas to `mouse_plot_slim.parquet`
   (per-cell UMAP + trajectory + leiden) and `trajectory_subtype_counts.csv`
   (cell counts per trajectory/subtype). `mouse_scdiv_results.csv` /
-  `mouse_hill_results.csv` holds the diversity figures.
+  `mouse_hill_results.csv` holds the diversity figures. The processing and diversity computations are contained in:
+  - `scripts/mouse_clustering.py`: Generates the *de novo* Seurat-style graph clusterings.
+  - `scripts/mouse_hill.py`: Computes Hill numbers. Generating output data `mouse_hill_results.csv`.
+  - `scripts/mouse_scdiv.py`: Computes similarity-sensitive LC diversities. Generating output data `mouse_scdiv_results.csv`.
 - **fig3**: from the MOSTA Stereo-seq atlas (Chen et al., 2022; CNGB
   [CNP0001543](https://db.cngb.org/search/project/CNP0001543),
   [portal](https://db.cngb.org/stomics/mosta/)), slice E1S1 at bin50, stages
