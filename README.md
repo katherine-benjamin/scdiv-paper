@@ -64,3 +64,7 @@ sets, but they are not needed to reproduce the figures.
   runs' highly variable genes. The
   `*_clusters.csv` / `*_hvg.csv` / `celltype.csv` files are the per-run
   clusterings, HVG sets, and cell-type labels.
+
+## Statement on AI assistance
+
+Claude Opus 4.8 was used extensively to accelerate the development of this repository and the `scdiv` package.
