@@ -42,8 +42,7 @@ sets, but they are not needed to reproduce the figures.
   `scripts/make_fig2_data.py` processes the atlas to `mouse_plot_slim.parquet`
   (per-cell UMAP + trajectory + leiden) and `trajectory_subtype_counts.csv`
   (cell counts per trajectory/subtype). `mouse_scdiv_results.csv` /
-  `mouse_hill_results.csv` are the diversity tables, computed by running scdiv
-  on the atlas.
+  `mouse_hill_results.csv` holds the diversity figures.
 - **fig3**: from the MOSTA Stereo-seq atlas (Chen et al., 2022; CNGB
   [CNP0001543](https://db.cngb.org/search/project/CNP0001543),
   [portal](https://db.cngb.org/stomics/mosta/)), slice E1S1 at bin50, stages
